@@ -1,16 +1,23 @@
-# Sales Forecasting using Machine Learning
+# Real-Time Sales Forecasting System
 
 ## Project Overview
 
-This project focuses on predicting future sales using the Superstore dataset with Machine Learning techniques. The goal is to help businesses improve inventory planning, demand forecasting, and business decision-making by analyzing historical sales data.
+This project is a real-time Sales Forecasting System built using Machine Learning, Streamlit, and Power BI. The main objective is to predict future sales using historical business data and help companies improve decision-making, inventory planning, and profit management.
 
-The project includes:
+The system allows users to input business values, generate instant sales predictions, visualize performance, and download reports for business analysis.
 
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Feature Engineering
-* Sales Prediction using Random Forest Regressor
-* Model Evaluation
+---
+
+## Features
+
+* Future Sales Prediction using Machine Learning
+* Real-Time Prediction using Streamlit App
+* Actual vs Predicted Sales Visualization
+* Download Prediction Report (CSV)
+* Interactive Power BI Dashboard
+* Business Performance Analysis
+* KPI Monitoring (Sales, Profit, Region, Category)
+
 ---
 
 ## Tools & Technologies Used
@@ -20,55 +27,63 @@ The project includes:
 * NumPy
 * Matplotlib
 * Scikit-learn
+* Random Forest Regressor
+* Streamlit
+* Power BI
 * Jupyter Notebook
 * GitHub
 
 ---
 
-## Machine Learning Algorithm Used
+## Machine Learning Model
 
-### Random Forest Regressor
+### Algorithm Used:
 
-Used for predicting future sales based on:
+Random Forest Regressor
 
-* Order Date
+### Input Features:
+
+* Year
+* Month
+* Day
 * Quantity
 * Discount
 * Profit
-* Historical Sales Data
+
+### Output:
+
+* Predicted Sales
+
+The model helps businesses forecast future sales based on historical patterns.
 
 ---
 
 ## Project Files
 
-* `Superstore.csv` → Dataset
-* `sales_forecasting_project.ipynb` → Jupyter Notebook Code
-* `requirements.txt` → Required Python Libraries
+* `app.py` → Streamlit Real-Time App
+* `sales_forecasting_project.ipynb` → Jupyter Notebook ML Code
 * `sales_prediction_output.csv` → Prediction Output File
-* `superstore_dashboard.pbix` → Power BI Dashboard File
+* `Superstore.csv` → Dataset
+* `requirements.txt` → Required Python Libraries
+* `superstore_dashboard.pbix` → Power BI Dashboard
+* `README.md` → Project Documentation
 
 ---
 
-## Key Features
+## Power BI Dashboard
 
-* Future Sales Prediction
-* Monthly Sales Trend Analysis
-* Actual vs Predicted Sales Comparison
-* Region-wise Sales Performance
+The Power BI dashboard provides business insights using prediction output.
+
+### Dashboard Visuals:
+
+* Total Sales KPI
+* Total Profit KPI
+* Monthly Sales Trend
+* Actual vs Predicted Sales
+* Region-wise Sales Analysis
 * Category-wise Profit Analysis
-* Business Decision Support Dashboard
-
----
-
-## Model Performance
-
-Evaluation Metrics Used:
-
-* MAE (Mean Absolute Error)
-* RMSE (Root Mean Squared Error)
-* R2 Score
-
-These metrics help measure the accuracy and performance of the forecasting model.
+* Segment-wise Performance
+* Slicers for Region, Category, and Segment
 
 ---
 
@@ -77,13 +92,40 @@ These metrics help measure the accuracy and performance of the forecasting model
 This project helps companies:
 
 * Predict future sales
-* Improve inventory management
-* Reduce business losses
-* Plan marketing strategies
+* Improve inventory planning
+* Reduce stock loss
 * Improve profit forecasting
+* Support business decisions
+* Monitor sales performance in real time
 
-Example:
-If predicted sales are high next month, businesses can prepare extra stock in advance.
+### Example:
+
+If next month’s predicted sales are high, businesses can prepare extra stock in advance.
+
+---
+
+## Streamlit App
+
+Users can enter:
+
+* Date
+* Quantity
+* Discount
+* Profit
+
+and instantly get:
+
+## Predicted Sales Result
+
+along with report download functionality.
+
+This makes the project practical and real-time for business use.
+
+---
+
+## Resume Description
+
+Built a real-time Sales Forecasting System using Machine Learning, Streamlit, and Power BI. Developed prediction models using Random Forest, created interactive dashboards, generated downloadable reports, and supported business decision-making using data-driven insights.
 
 ---
 
@@ -95,8 +137,8 @@ Aspiring Data Analyst | Power BI | Python | SQL | Machine Learning
 
 ---
 
-## GitHub Project Link
+## GitHub Project
 
-Sales Forecasting using Machine Learning Project https://github.com/devendra8861jee-data/superstore-sales-forecasting/edit/main/README.md
+Real-Time Sales Forecasting using ML + Streamlit
 
 ---
